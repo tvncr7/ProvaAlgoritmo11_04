@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+fieldset {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #E3FEF7;
+}
+
+button {
+    border: solid 1px;
+    padding: 5px;
+}

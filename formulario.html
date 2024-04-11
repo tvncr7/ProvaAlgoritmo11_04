@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <main>
+        <h2>Cadastre-se Aqui !</h2>
+    <form action="cadastro.html" method="GET">
+        <fieldset>
+            <legend>Insira seus Dados</legend>
+            <label class="label-50"> 
+                Nome: <input type="text" name="txt_nome" placeholder="Digite seu nome completo" required />
+            </label>
+            <label class="label-50"> 
+                E-mail: <input type="email" name="txt_email" placeholder="Informe seu melhor e-mail" required />
+            </label>
+            <label class="label-50"> 
+                Telefone: <input type="number" name="txt_telefone" placeholder="Informe seu Telefone" required />
+            </label>
+            <label class="label-50"> 
+                Data de Nascimento: <input type="date" name="txt_datanascimento"  required />
+            </label>
+            <label class="label-50"> 
+                CPF: <input type="number" name="txt_cpf" placeholder="Somente Números" required />
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <label class="label-50">
+                Rua: <input type="text" name="txt_rua" required />
+            </label>
+            <label class="label-50">
+                Bairro: <input type="text" name="txt_bairro" required />
+            </label>
+            <label class="label-50">
+                Cidade: <input type="text" name="txt_cidade" required />
+            </label>
+            <label class="label-50">
+                Estado: 
+                <select>
+                    <option value="">Selecione seu Estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraiba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </label>
+        </fieldset>
+        <p class="center">
+            <button type="submit" class="enviar">Enviar</button>
+            <button type="reset">Limpar</button>
+        </p>
+    </form>
+    </main>
+    <footer>
+        Rouparia Fatec LTDA. 
+        <address>
+           Rua dos Milagres, 389 - Jaú - <abbr title="São Paulo - Brasil">SP</abbr>
+         </address>
+
+    </footer>
+    
+</body>
+</html>
