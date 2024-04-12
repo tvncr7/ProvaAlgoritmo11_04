@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E3FEF7;
+    padding: 5%;
+
+}
+
+#corpo {
+    background: #E3FEF7;
+    border: 1px solid #003C43;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    margin: 0 auto;
+}
+
+header {
+    background: #135D66;
+    padding: 2%;
+    border-bottom: 1px solid #003C43;
+
+}
+
+main {
+    padding: 2%;
+}
+
+footer, h1, h2 {
+    padding: 2%;
+    text-align: center;
+}

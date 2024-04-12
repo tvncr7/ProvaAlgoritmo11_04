@@ -1,0 +1,27 @@
+#sobre-nos {}
+img {
+    max-width: 100%;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+
+} 
+ 
+ .fotos {
+    overflow: hidden;
+    clear: both;
+    background-color: #77B0AA;
+    border: 1px solid #E3FEF7;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px #003C43;
+ }
+
+ figure {
+    border: 1px solid #E3FEF7;
+    border-radius: 10px;
+    float: left;
+    padding: 5px;
+    max-width: 30%;
+    margin: 1%;
+    text-align: center;
+}
