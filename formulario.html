@@ -11,35 +11,35 @@
     <main>
         <h2>Cadastre-se Aqui !</h2>
     <form action="cadastro.html" method="GET">
-        <fieldset>
+        <fieldset class="dados">
             <legend>Insira seus Dados</legend>
             <label class="label-50"> 
                 Nome: <input type="text" name="txt_nome" placeholder="Digite seu nome completo" required />
             </label>
             <label class="label-50"> 
                 E-mail: <input type="email" name="txt_email" placeholder="Informe seu melhor e-mail" required />
-            </label>
+            </label><br>
             <label class="label-50"> 
                 Telefone: <input type="number" name="txt_telefone" placeholder="Informe seu Telefone" required />
             </label>
             <label class="label-50"> 
                 Data de Nascimento: <input type="date" name="txt_datanascimento"  required />
-            </label>
+            </label><br>
             <label class="label-50"> 
                 CPF: <input type="number" name="txt_cpf" placeholder="Somente Números" required />
             </label>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="endereco">
             <legend>Endereço</legend>
             <label class="label-50">
-                Rua: <input type="text" name="txt_rua" required />
+                Rua: <input type="text" name="txt_rua" placeholder="Informe sua rua" required />
             </label>
             <label class="label-50">
-                Bairro: <input type="text" name="txt_bairro" required />
+                Bairro: <input type="text" name="txt_bairro" placeholder="Informe seu bairro" required />
             </label>
             <label class="label-50">
-                Cidade: <input type="text" name="txt_cidade" required />
+                Cidade: <input type="text" name="txt_cidade" placeholder="Informe sua cidade" required />
             </label>
             <label class="label-50">
                 Estado: 
@@ -75,10 +75,10 @@
             </label>
         </fieldset>
         <p class="center">
-            <button type="submit" class="enviar">Enviar</button>
-            <button type="reset">Limpar</button>
+            <button class="enviar" type="submit" class="enviar">Enviar</button>
+            <button class="limpar" type="reset">Limpar</button>      
         </p>
-    </form>
+        </form>
     </main>
     <footer>
         Rouparia Fatec LTDA. 

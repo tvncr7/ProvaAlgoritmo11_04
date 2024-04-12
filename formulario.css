@@ -4,13 +4,116 @@
     border: 0;
 }
 
-fieldset {
-    padding: 5px;
-    border-radius: 15px;
-    background-color: #E3FEF7;
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 2px #135D66;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: teal;
 }
 
-button {
+main {
+    border: 2px solid black;
+    border-radius: 7px;
+    background:rgb(206, 209, 209);
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+}
+
+label, input, select {
+    display: block; box-sizing: border-box;
+}
+
+input {
+    border: solid 1px black;
+    padding: 4px;
+    display: inline;
+}
+
+input, select {
+    width: 100%;
+    border: 1px outset; 
+    padding: 10px;
+}
+input:focus {
+    background: #E3FEF7;
+}
+
+fieldset {    
+    border: 1px solid #135D66;
+    padding: 1%;
+    border-radius: 12px;
+    background: #28d1a4;
+    margin-top: 2%;
+}
+
+.label-50 {
+    width: 50%; float: left;
+}
+
+.center {
+    text-align: center;
+    padding: 2%;
+}
+
+legend {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid #135D66;
+    background: rgba(6, 68, 6, 0.856);
+
+}
+
+label {
+    padding: 5px;
+}
+
+select {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.dados {
+    background-color: teal;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.endereco {
+    background-color: teal;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.enviar {
+    cursor: pointer;
+    align-items: center;
     border: solid 1px;
+    padding: 10px;
+    background-color:teal;
+}
+
+.limpar {
+    cursor: pointer;
+    align-items: center;
+    border: solid 1px;
+    padding: 10px;
+    background-color: teal;
+}
+
+button:hover {background-color: #117e0e;}
+button:active{background-color: green;}
+
+footer {
+    text-align: center;
     padding: 5px;
 }
